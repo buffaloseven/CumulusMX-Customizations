@@ -1,0 +1,150 @@
+{
+    "_meta": {
+        "altitude": "<#altitude>",
+        "latitude": "<#latitude dp=4>",
+        "location": "<#location>",
+        "longitude": "<#longitude dp=4>",
+        "rollOverTime": "<#rollovertime>",
+        "stationType": "<#stationtype>",
+        "updateInterval": "<#interval>",
+        "updateTime": "<#time>"
+    },
+    "astronomical": {
+        "dawn": "<#dawn>",
+        "dayLength": "<#daylength>",
+        "daylight": "<#daylightlength>",
+        "dusk": "<#dusk>",
+        "moonPhase": "<#moonphase>",
+        "sunrise": "<#sunrise>",
+        "sunset": "<#sunset>"
+    },
+    "cumulus": {
+        "build": "<#build>",
+        "version": "<#version>"
+    },
+    "derived": {
+        "apparentTemperature": "<#apptemp>",
+        "heatIndex": "<#heatindex>",
+        "thw": "<#THWindex>",
+        "windchill": "<#wchill>"
+    },
+    "humidity": {
+        "relative": "<#hum>%"
+    },
+    "precipitation": {
+        "hour": "<#rhour>",
+        "lastMeasureTime": "<#LastRainTipISO>",
+        "midnight": "<#rmidnight>",
+        "month": "<#rmonth>",
+        "rate": "<#rrate>",
+        "today": "<#rfall>",
+        "twentyFourHour": "<#r24hour>",
+        "unit": "<#rainunit>",
+        "year": "<#ryear>"
+    },
+    "pressure": {
+        "value": "<#press>",
+        "trend": {
+            "description": "<#presstrend>",
+            "value": "<#presstrendval>"
+        },
+        "unit": "<#pressunit>"
+    },
+    "stationStats": {
+        "battery": "<#txbattery>",
+        "packets": {
+            "missed": "<#DavisTotalPacketsMissed>",
+            "recieved": "<#DavisTotalPacketsReceived>",
+            "streak": "<#DavisMaxInARow>"
+        }
+    },
+    "temperature": {
+        "changeLastHour": "<#TempChangeLastHour>",
+        "dewpoint": "<#dew>",
+        "outside": "<#temp>",
+        "unit": "<#tempunit>"
+    },
+    "today": {
+        "maxTemp": {
+            "value": "<#tempTH>",
+            "time": "<#TtempTH>"
+        },
+        "minTemp": {
+            "value": "<#tempTL>",
+            "time": "<#TtempTL>"
+        },
+        "maxRainRate": {
+            "value": "<#rrateTM>",
+            "time": "<#TrrateTM>"
+        },
+        "maxAvgWind": {
+            "value": "<#windTM>",
+            "time": "<#TwindTM>"
+        },
+        "maxGustWind": {
+            "value": "<#wgustTM>",
+            "bearing": "<#bearingTM>",
+            "time": "<#TwgustTM>"
+        },
+        "dayRain": {
+            "value": "<#rfall>"
+        },
+        "hourlyRain": {
+            "value": "<#hourlyrainTH>",
+            "time": "<#ThourlyrainTH>"
+        }
+    },
+    "wind": {
+        "bearing": "<#avgbearing>",
+        "beaufort": {
+            "scale": "<#beaufort>",
+            "description": "<#beaudesc>"
+        },
+        "direction": "<#wdir>",
+        "gust": "<#wgust>",
+        "speed": "<#wspeed>",
+        "unit": "<#windunit>",
+        "variation": {
+            "from": "<#BearingRangeFrom>",
+            "to": "<#BearingRangeTo>"
+        }
+    },
+    "warningCriteria": {
+        "wind": {
+            "sustained": 70,
+            "gust": 90
+        },
+        "windchill": -40,
+        "24-hour-rainfall": 50
+    },
+    "yesterday": {
+        "maxTemp": {
+            "value": "<#tempYH>",
+            "time": "<#TtempYH>"
+        },
+        "minTemp": {
+            "value": "<#tempYL>",
+            "time": "<#TtempYL>"
+        },
+        "maxRainRate": {
+            "value": "<#rrateYM>",
+            "time": "<#TrrateYM>"
+        },
+        "maxAvgWind": {
+            "value": "<#windYM>",
+            "time": "<#TwindYM>"
+        },
+        "maxGustWind": {
+            "value": "<#wgustYM>",
+            "bearing": "<#bearingYM>",
+            "time": "<#TwgustYM>"
+        },
+        "dayRain": {
+            "value": "<#rfallY>"
+        },
+        "hourlyRain": {
+            "value": "<#hourlyrainYH>",
+            "time": "<#ThourlyrainYH>"
+        }
+    }
+}

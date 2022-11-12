@@ -1,0 +1,209 @@
+{
+    "today": {
+        "temperature": {
+            "high": {
+                "value": -7.3,
+                "time": "12:10"
+            },
+            "low": {
+                "value": -8.6,
+                "time": "07:37"
+            },
+            "range": {
+                "value": 1.3
+            },
+            "apparent": {
+                "high": {
+                    "value": -10.5,
+                    "time": "11:06"
+                },
+                "low": {
+                    "value": -12.2,
+                    "time": "03:55"
+                }
+            },
+            "dewpoint": {
+                "high": {
+                    "value": -8.8,
+                    "time": "11:14"
+                },
+                "low": {
+                    "value": -10.1,
+                    "time": "07:37"
+                }
+            },
+            "windchill": {
+                "value": -11.4,
+                "time": "03:55"
+            },
+            "heatIndex": {
+                "value": -7.3,
+                "time": "12:10"
+            }
+        },
+        "humidity": {
+            "high": {
+                "value": 90,
+                "time": "00:00"
+            },
+            "low": {
+                "value": 89,
+                "time": "04:59"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": 0.0
+            },
+            "rate": {
+                "value": 0.0,
+                "time": "00:00"
+            },
+            "hourly": {
+                "value": 0.0,
+                "time": "00:00"
+            }
+        },
+        "wind": {
+            "gust": {
+                "value": 18,
+                "time": "12:02"
+            },
+            "speed": {
+                "value": 6,
+                "time": "00:00"
+            },
+            "run": {
+                "value": 23.7
+            },
+            "direction": {
+                "bearing": 357,
+                "name": "N"
+            }
+        },
+        "pressure": {
+            "high": {
+                "value": 1030.3,
+                "time": "08:41"
+            },
+            "low": {
+                "value": 1028.9,
+                "time": "00:14"
+            }
+        }
+    },
+    "yesterday": {
+        "temperature": {
+            "high": {
+                "value": -5.0,
+                "time": "14:49"
+            },
+            "low": {
+                "value": -8.6,
+                "time": "07:42"
+            },
+            "range": {
+                "value": 3.6
+            },
+            "apparent": {
+                "high": {
+                    "value": -9.6,
+                    "time": "15:08"
+                },
+                "low": {
+                    "value": -15.2,
+                    "time": "08:44"
+                }
+            },
+            "dewpoint": {
+                "high": {
+                    "value": -6.1,
+                    "time": "14:49"
+                },
+                "low": {
+                    "value": -9.8,
+                    "time": "07:42"
+                }
+            },
+            "windchill": {
+                "value": -15.7,
+                "time": "08:44"
+            },
+            "heatIndex": {
+                "value": -5.0,
+                "time": "14:49"
+            }
+        },
+        "humidity": {
+            "high": {
+                "value": 93,
+                "time": "00:00"
+            },
+            "low": {
+                "value": 90,
+                "time": "09:26"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": 0.0
+            },
+            "rate": {
+                "value": 0.0,
+                "time": "00:00"
+            },
+            "hourly": {
+                "value": 0.0,
+                "time": "00:00"
+            }
+        },
+        "wind": {
+            "gust": {
+                "value": 39,
+                "time": "02:50"
+            },
+            "speed": {
+                "value": 19,
+                "time": "00:00"
+            },
+            "run": {
+                "value": 307.5
+            },
+            "direction": {
+                "bearing": 334,
+                "name": "NNW"
+            }
+        },
+        "pressure": {
+            "high": {
+                "value": 1029.0,
+                "time": "23:39"
+            },
+            "low": {
+                "value": 1021.4,
+                "time": "00:06"
+            }
+        }
+    },
+    "units": {
+        "temperature": "&#176;C",
+        "rain": "mm",
+        "wind": "km/h",
+        "windRun": "km",
+        "pressure": "mb"
+    },
+    "_meta": {
+        "altitude": "231&nbsp;m",
+        "latitude": "49.8700",
+        "location": "Glenwood",
+        "longitude": "-97.1039",
+        "rollOverTime": "midnight",
+        "stationType": "Davis Vantage Pro",
+        "updateInterval": "5",
+        "updateTime": "12:15 on 12 November 2022"
+    },
+    "cumulus": {
+        "build": "3162",
+        "version": "3.14.2"
+    }
+}

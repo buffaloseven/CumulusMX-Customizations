@@ -1,0 +1,383 @@
+{
+    "monthly": {
+        "temperature": {
+            "high": {
+                "value": 18.5,
+                "time": "2:19 PM",
+                "date": "02 November"
+            },
+            "low": {
+                "value": -9.1,
+                "time": "9:13 AM",
+                "date": "10 November"
+            },
+            "high-minimum": {
+                "value": 5.6,
+                "date": "02 November"
+            },
+            "low-maximum": {
+                "value": -5.0,
+                "date": "11 November"
+            },
+            "dailyRange-high": {
+                "value": 12.9,
+                "date": "02 November"
+            },
+            "dailyRange-low": {
+                "value": 3.1,
+                "date": "07 November"
+            },
+            "heat-index": {
+                "value": 18.5,
+                "time": "2:19 PM",
+                "date": "02 November"
+            },
+            "wind-chill": {
+                "value": -16.4,
+                "time": "8:13 AM",
+                "date": "10 November"
+            },
+            "apparentTemp-high": {
+                "value": 16.6,
+                "time": "5:27 PM",
+                "date": "02 November"
+            },
+            "apparentTemp-low": {
+                "value": -15.9,
+                "time": "8:13 AM",
+                "date": "10 November"
+            },
+            "dewPoint-high": {
+                "value": 9.2,
+                "time": "4:57 PM",
+                "date": "02 November"
+            },
+            "dewPoint-low": {
+                "value": -12.5,
+                "time": "9:30 AM",
+                "date": "10 November"
+            },
+            "humidity-high": {
+                "value": 96,
+                "time": "8:45 PM",
+                "date": "08 November"
+            },
+            "humidity-low": {
+                "value": 37,
+                "time": "4:44 PM",
+                "date": "05 November"
+            }
+        },
+        "pressure": {
+            "pressure-high": {
+                "value": 1038.5,
+                "time": "2:05 PM",
+                "date": "07 November"
+            },
+            "pressure-low": {
+                "value": 987.8,
+                "time": "2:22 AM",
+                "date": "06 November"
+            }
+        },
+        "wind": {
+            "sustained-high": {
+                "value": 23,
+                "time": "1:51 AM",
+                "date": "07 November"
+            },
+            "gust-high": {
+                "value": 53,
+                "time": "10:35 PM",
+                "date": "10 November"
+            },
+            "wind-run-high": {
+                "value": 363.3,
+                "date": "10 November"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": 4.2
+            },
+            "rainRate-high": {
+                "value": 2.0,
+                "time": "11:23 AM",
+                "date": "08 November"
+            },
+            "hourlyRain-high": {
+                "value": 0.8,
+                "time": "11:24 AM",
+                "date": "08 November"
+            },
+            "dailyRain-high": {
+                "value": 3.8,
+                "date": "08 November"
+            },
+            "dryPeriod-long": {
+                "value": 12,
+                "date": "05 November"
+            },
+            "wetPeriod-long": {
+                "value": 1,
+                "date": "06 November"
+            }
+        }
+    },
+    "yearly": {
+        "temperature": {
+            "high": {
+                "value": 38.3,
+                "time": "4:11 PM",
+                "date": "19 June"
+            },
+            "low": {
+                "value": -33.3,
+                "time": "7:25 AM",
+                "date": "03 February"
+            },
+            "high-minimum": {
+                "value": 22.2,
+                "date": "19 June"
+            },
+            "low-maximum": {
+                "value": -25.3,
+                "date": "01 January"
+            },
+            "dailyRange-high": {
+                "value": 23.8,
+                "date": "26 January"
+            },
+            "dailyRange-low": {
+                "value": 1.2,
+                "date": "06 April"
+            },
+            "heat-index": {
+                "value": 44.7,
+                "time": "5:35 PM",
+                "date": "17 July"
+            },
+            "wind-chill": {
+                "value": -41.1,
+                "time": "7:42 AM",
+                "date": "22 February"
+            },
+            "apparentTemp-high": {
+                "value": 42.3,
+                "time": "4:09 PM",
+                "date": "19 June"
+            },
+            "apparentTemp-low": {
+                "value": -37.7,
+                "time": "7:39 AM",
+                "date": "03 February"
+            },
+            "dewPoint-high": {
+                "value": 27.0,
+                "time": "7:25 PM",
+                "date": "17 July"
+            },
+            "dewPoint-low": {
+                "value": -37.7,
+                "time": "7:25 AM",
+                "date": "03 February"
+            },
+            "humidity-high": {
+                "value": 98,
+                "time": "7:34 PM",
+                "date": "13 April"
+            },
+            "humidity-low": {
+                "value": 20,
+                "time": "4:32 PM",
+                "date": "08 June"
+            }
+        },
+        "pressure": {
+            "pressure-high": {
+                "value": 1043.8,
+                "time": "9:23 AM",
+                "date": "22 February"
+            },
+            "pressure-low": {
+                "value": 983.6,
+                "time": "4:00 AM",
+                "date": "31 May"
+            }
+        },
+        "wind": {
+            "sustained-high": {
+                "value": 32,
+                "time": "4:49 PM",
+                "date": "24 April"
+            },
+            "gust-high": {
+                "value": 72,
+                "time": "6:38 PM",
+                "date": "13 May"
+            },
+            "wind-run-high": {
+                "value": 555.5,
+                "date": "24 April"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": 628.8
+            },
+            "rainRate-high": {
+                "value": 198.6,
+                "time": "4:04 AM",
+                "date": "18 August"
+            },
+            "hourlyRain-high": {
+                "value": 36.6,
+                "time": "8:48 PM",
+                "date": "15 August"
+            },
+            "dailyRain-high": {
+                "value": 56.6,
+                "date": "15 August"
+            },
+            "dryPeriod-long": {
+                "value": 45,
+                "date": "07 February"
+            },
+            "wetPeriod-long": {
+                "value": 7,
+                "date": "31 May"
+            }
+        }
+    },
+    "all-time": {
+        "temperature": {
+            "high": {
+                "value": 39.1,
+                "date": "at 14:31 on 04 June 2021"
+            },
+            "low": {
+                "value": -36.2,
+                "date": "at 06:04 on 30 January 2019"
+            },
+            "high-minimum": {
+                "value": 23.8,
+                "date": "at 00:00 on 27 July 2019"
+            },
+            "low-maximum": {
+                "value": -28.0,
+                "date": "at 16:11 on 30 January 2019"
+            },
+            "dailyRange-high": {
+                "value": 27.9,
+                "date": "on 15 May 2018"
+            },
+            "dailyRange-low": {
+                "value": 0.0,
+                "date": "on 28 January 2020"
+            },
+            "heat-index": {
+                "value": 44.7,
+                "date": "at 17:35 on 17 July 2022"
+            },
+            "wind-chill": {
+                "value": -46.3,
+                "date": "at 08:02 on 29 January 2019"
+            },
+            "apparentTemp-high": {
+                "value": 42.3,
+                "date": "at 16:09 on 19 June 2022"
+            },
+            "apparentTemp-low": {
+                "value": -40.6,
+                "date": "at 08:52 on 29 January 2019"
+            },
+            "dewPoint-high": {
+                "value": 27.0,
+                "date": "at 19:25 on 17 July 2022"
+            },
+            "dewPoint-low": {
+                "value": -40.8,
+                "date": "at 06:04 on 30 January 2019"
+            },
+            "humidity-high": {
+                "value": 100,
+                "date": "at 09:44 on 24 November 2016"
+            },
+            "humidity-low": {
+                "value": 11,
+                "date": "at 16:03 on 12 May 2021"
+            }
+        },
+        "pressure": {
+            "pressure-high": {
+                "value": 1047.7,
+                "date": "at 11:00 on 16 January 2020"
+            },
+            "pressure-low": {
+                "value": 974.7,
+                "date": "at 19:44 on 06 March 2017"
+            }
+        },
+        "wind": {
+            "sustained-high": {
+                "value": 32,
+                "date": "at 16:48 on 31 October 2020"
+            },
+            "gust-high": {
+                "value": 72,
+                "date": "at 18:38 on 13 May 2022"
+            },
+            "wind-run-high": {
+                "value": 555.5,
+                "date": "on 24 April 2022"
+            }
+        },
+        "rainfall": {
+            "rainRate-high": {
+                "value": 240.0,
+                "date": "at 11:36 on 12 October 2019"
+            },
+            "hourlyRain-high": {
+                "value": 36.6,
+                "date": "at 20:48 on 15 August 2022"
+            },
+            "dailyRain-high": {
+                "value": 56.6,
+                "date": "on 15 August 2022"
+            },
+            "monthlyRain-high": {
+                "value": 124.8,
+                "date": "September 2019"
+            },
+            "dryPeriod-long": {
+                "value": 45,
+                "date": "to 07 February 2022"
+            },
+            "wetPeriod-long": {
+                "value": 10,
+                "date": "to 13 March 2018"
+            }
+        }
+    },
+    "units": {
+        "temperature": "&#176;C",
+        "rain": "mm",
+        "wind": "km/h",
+        "windRun": "km",
+        "pressure": "mb"
+    },
+    "_meta": {
+        "altitude": "231&nbsp;m",
+        "latitude": "49.8700",
+        "location": "Glenwood",
+        "longitude": "-97.1039",
+        "rollOverTime": "midnight",
+        "stationType": "Davis Vantage Pro",
+        "updateInterval": "5",
+        "updateTime": "12:15 on 12 November 2022"
+    },
+    "cumulus": {
+        "build": "3162",
+        "version": "3.14.2"
+    }
+}

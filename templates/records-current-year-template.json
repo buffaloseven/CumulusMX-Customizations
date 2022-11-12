@@ -1,0 +1,383 @@
+{
+    "monthly": {
+        "temperature": {
+            "high": {
+                "value": <#MonthTempH>,
+                "time": "<#MonthTempHT>",
+                "date": "<#MonthTempHD>"
+            },
+            "low": {
+                "value": <#MonthTempL>,
+                "time": "<#MonthTempLT>",
+                "date": "<#MonthTempLD>"
+            },
+            "high-minimum": {
+                "value": <#MonthMinTempH>,
+                "date": "<#MonthMinTempHD>"
+            },
+            "low-maximum": {
+                "value": <#MonthMaxTempL>,
+                "date": "<#MonthMaxTempLD>"
+            },
+            "dailyRange-high": {
+                "value": <#MonthHighDailyTempRange>,
+                "date": "<#MonthHighDailyTempRangeD>"
+            },
+            "dailyRange-low": {
+                "value": <#MonthLowDailyTempRange>,
+                "date": "<#MonthLowDailyTempRangeD>"
+            },
+            "heat-index": {
+                "value": <#MonthHeatIndexH>,
+                "time": "<#MonthHeatIndexHT>",
+                "date": "<#MonthHeatIndexHD>"
+            },
+            "wind-chill": {
+                "value": <#MonthWChillL>,
+                "time": "<#MonthWChillLT>",
+                "date": "<#MonthWChillLD>"
+            },
+            "apparentTemp-high": {
+                "value": <#MonthAppTempH>,
+                "time": "<#MonthAppTempHT>",
+                "date": "<#MonthAppTempHD>"
+            },
+            "apparentTemp-low": {
+                "value": <#MonthAppTempL>,
+                "time": "<#MonthAppTempLT>",
+                "date": "<#MonthAppTempLD>"
+            },
+            "dewPoint-high": {
+                "value": <#MonthDewPointH>,
+                "time": "<#MonthDewPointHT>",
+                "date": "<#MonthDewPointHD>"
+            },
+            "dewPoint-low": {
+                "value": <#MonthDewPointL>,
+                "time": "<#MonthDewPointLT>",
+                "date": "<#MonthDewPointLD>"
+            },
+            "humidity-high": {
+                "value": <#MonthHumH>,
+                "time": "<#MonthHumHT>",
+                "date": "<#MonthHumHD>"
+            },
+            "humidity-low": {
+                "value": <#MonthHumL>,
+                "time": "<#MonthHumLT>",
+                "date": "<#MonthHumLD>"
+            }
+        },
+        "pressure": {
+            "pressure-high": {
+                "value": <#MonthPressH>,
+                "time": "<#MonthPressHT>",
+                "date": "<#MonthPressHD>"
+            },
+            "pressure-low": {
+                "value": <#MonthPressL>,
+                "time": "<#MonthPressLT>",
+                "date": "<#MonthPressLD>"
+            }
+        },
+        "wind": {
+            "sustained-high": {
+                "value": <#MonthWindH>,
+                "time": "<#MonthWindHT>",
+                "date": "<#MonthWindHD>"
+            },
+            "gust-high": {
+                "value": <#MonthGustH>,
+                "time": "<#MonthGustHT>",
+                "date": "<#MonthGustHD>"
+            },
+            "wind-run-high": {
+                "value": <#MonthWindRunH>,
+                "date": "<#MonthWindRunHD>"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": <#rmonth>
+            },
+            "rainRate-high": {
+                "value": <#MonthRainRateH>,
+                "time": "<#MonthRainRateHT>",
+                "date": "<#MonthRainRateHD>"
+            },
+            "hourlyRain-high": {
+                "value": <#MonthHourlyRainH>,
+                "time": "<#MonthHourlyRainHT>",
+                "date": "<#MonthHourlyRainHD>"
+            },
+            "dailyRain-high": {
+                "value": <#MonthDailyRainH>,
+                "date": "<#MonthDailyRainHD>"
+            },
+            "dryPeriod-long": {
+                "value": <#MonthLongestDryPeriod>,
+                "date": "<#MonthLongestDryPeriodD>"
+            },
+            "wetPeriod-long": {
+                "value": <#MonthLongestWetPeriod>,
+                "date": "<#MonthLongestWetPeriodD>"
+            }
+        }
+    },
+    "yearly": {
+        "temperature": {
+            "high": {
+                "value": <#YearTempH>,
+                "time": "<#YearTempHT>",
+                "date": "<#YearTempHD>"
+            },
+            "low": {
+                "value": <#YearTempL>,
+                "time": "<#YearTempLT>",
+                "date": "<#YearTempLD>"
+            },
+            "high-minimum": {
+                "value": <#YearMinTempH>,
+                "date": "<#YearMinTempHD>"
+            },
+            "low-maximum": {
+                "value": <#YearMaxTempL>,
+                "date": "<#YearMaxTempLD>"
+            },
+            "dailyRange-high": {
+                "value": <#YearHighDailyTempRange>,
+                "date": "<#YearHighDailyTempRangeD>"
+            },
+            "dailyRange-low": {
+                "value": <#YearLowDailyTempRange>,
+                "date": "<#YearLowDailyTempRangeD>"
+            },
+            "heat-index": {
+                "value": <#YearHeatIndexH>,
+                "time": "<#YearHeatIndexHT>",
+                "date": "<#YearHeatIndexHD>"
+            },
+            "wind-chill": {
+                "value": <#YearWChillL>,
+                "time": "<#YearWChillLT>",
+                "date": "<#YearWChillLD>"
+            },
+            "apparentTemp-high": {
+                "value": <#YearAppTempH>,
+                "time": "<#YearAppTempHT>",
+                "date": "<#YearAppTempHD>"
+            },
+            "apparentTemp-low": {
+                "value": <#YearAppTempL>,
+                "time": "<#YearAppTempLT>",
+                "date": "<#YearAppTempLD>"
+            },
+            "dewPoint-high": {
+                "value": <#YearDewPointH>,
+                "time": "<#YearDewPointHT>",
+                "date": "<#YearDewPointHD>"
+            },
+            "dewPoint-low": {
+                "value": <#YearDewPointL>,
+                "time": "<#YearDewPointLT>",
+                "date": "<#YearDewPointLD>"
+            },
+            "humidity-high": {
+                "value": <#YearHumH>,
+                "time": "<#YearHumHT>",
+                "date": "<#YearHumHD>"
+            },
+            "humidity-low": {
+                "value": <#YearHumL>,
+                "time": "<#YearHumLT>",
+                "date": "<#YearHumLD>"
+            }
+        },
+        "pressure": {
+            "pressure-high": {
+                "value": <#YearPressH>,
+                "time": "<#YearPressHT>",
+                "date": "<#YearPressHD>"
+            },
+            "pressure-low": {
+                "value": <#YearPressL>,
+                "time": "<#YearPressLT>",
+                "date": "<#YearPressLD>"
+            }
+        },
+        "wind": {
+            "sustained-high": {
+                "value": <#YearWindH>,
+                "time": "<#YearWindHT>",
+                "date": "<#YearWindHD>"
+            },
+            "gust-high": {
+                "value": <#YearGustH>,
+                "time": "<#YearGustHT>",
+                "date": "<#YearGustHD>"
+            },
+            "wind-run-high": {
+                "value": <#YearWindRunH>,
+                "date": "<#YearWindRunHD>"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": <#ryear>
+            },
+            "rainRate-high": {
+                "value": <#YearRainRateH>,
+                "time": "<#YearRainRateHT>",
+                "date": "<#YearRainRateHD>"
+            },
+            "hourlyRain-high": {
+                "value": <#YearHourlyRainH>,
+                "time": "<#YearHourlyRainHT>",
+                "date": "<#YearHourlyRainHD>"
+            },
+            "dailyRain-high": {
+                "value": <#YearDailyRainH>,
+                "date": "<#YearDailyRainHD>"
+            },
+            "dryPeriod-long": {
+                "value": <#YearLongestDryPeriod>,
+                "date": "<#YearLongestDryPeriodD>"
+            },
+            "wetPeriod-long": {
+                "value": <#YearLongestWetPeriod>,
+                "date": "<#YearLongestWetPeriodD>"
+            }
+        }
+    },
+    "all-time": {
+        "temperature": {
+            "high": {
+                "value": <#tempH>,
+                "date": "<#TtempH>"
+            },
+            "low": {
+                "value": <#tempL>,
+                "date": "<#TtempL>"
+            },
+            "high-minimum": {
+                "value": <#mintempH>,
+                "date": "<#TmintempH>"
+            },
+            "low-maximum": {
+                "value": <#maxtempL>,
+                "date": "<#TmaxtempL>"
+            },
+            "dailyRange-high": {
+                "value": <#HighDailyTempRange>,
+                "date": "<#THighDailyTempRange>"
+            },
+            "dailyRange-low": {
+                "value": <#LowDailyTempRange>,
+                "date": "<#TLowDailyTempRange>"
+            },
+            "heat-index": {
+                "value": <#heatindexH>,
+                "date": "<#TheatindexH>"
+            },
+            "wind-chill": {
+                "value": <#wchillH>,
+                "date": "<#TwchillH>"
+            },
+            "apparentTemp-high": {
+                "value": <#apptempH>,
+                "date": "<#TapptempH>"
+            },
+            "apparentTemp-low": {
+                "value": <#apptempL>,
+                "date": "<#TapptempL>"
+            },
+            "dewPoint-high": {
+                "value": <#dewpointH>,
+                "date": "<#TdewpointH>"
+            },
+            "dewPoint-low": {
+                "value": <#dewpointL>,
+                "date": "<#TdewpointL>"
+            },
+            "humidity-high": {
+                "value": <#humH>,
+                "date": "<#ThumH>"
+            },
+            "humidity-low": {
+                "value": <#humL>,
+                "date": "<#ThumL>"
+            }
+        },
+        "pressure": {
+            "pressure-high": {
+                "value": <#pressH>,
+                "date": "<#TpressH>"
+            },
+            "pressure-low": {
+                "value": <#pressL>,
+                "date": "<#TpressL>"
+            }
+        },
+        "wind": {
+            "sustained-high": {
+                "value": <#wspeedH>,
+                "date": "<#TwspeedH>"
+            },
+            "gust-high": {
+                "value": <#gustM>,
+                "date": "<#TgustM>"
+            },
+            "wind-run-high": {
+                "value": <#windrunH>,
+                "date": "<#TwindrunH>"
+            }
+        },
+        "rainfall": {
+            "rainRate-high": {
+                "value": <#rrateM>,
+                "date": "<#TrrateM>"
+            },
+            "hourlyRain-high": {
+                "value": <#rfallhH>,
+                "date": "<#TrfallhH>"
+            },
+            "dailyRain-high": {
+                "value": <#rfallH>,
+                "date": "<#TrfallH>"
+            },
+            "monthlyRain-high": {
+                "value": <#rfallmH>,
+                "date": "<#TrfallmH>"
+            },
+            "dryPeriod-long": {
+                "value": <#LongestDryPeriod>,
+                "date": "<#TLongestDryPeriod>"
+            },
+            "wetPeriod-long": {
+                "value": <#LongestWetPeriod>,
+                "date": "<#TLongestWetPeriod>"
+            }
+        }
+    },
+    "units": {
+        "temperature": "<#tempunit>",
+        "rain": "<#rainunit>",
+        "wind": "<#windunit>",
+        "windRun": "<#windrununit>",
+        "pressure": "<#pressunit>"
+    },
+    "_meta": {
+        "altitude": "<#altitude>",
+        "latitude": "<#latitude dp=4>",
+        "location": "<#location>",
+        "longitude": "<#longitude dp=4>",
+        "rollOverTime": "<#rollovertime>",
+        "stationType": "<#stationtype>",
+        "updateInterval": "<#interval>",
+        "updateTime": "<#time>"
+    },
+    "cumulus": {
+        "build": "<#build>",
+        "version": "<#version>"
+    }
+}

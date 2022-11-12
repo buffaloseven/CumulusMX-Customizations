@@ -1,0 +1,209 @@
+{
+    "today": {
+        "temperature": {
+            "high": {
+                "value": <#tempTH>,
+                "time": "<#TtempTH>"
+            },
+            "low": {
+                "value": <#tempTL>,
+                "time": "<#TtempTL>"
+            },
+            "range": {
+                "value": <#temprange>
+            },
+            "apparent": {
+                "high": {
+                    "value": <#apptempTH>,
+                    "time": "<#TapptempTH>"
+                },
+                "low": {
+                    "value": <#apptempTL>,
+                    "time": "<#TapptempTL>"
+                }
+            },
+            "dewpoint": {
+                "high": {
+                    "value": <#dewpointTH>,
+                    "time": "<#TdewpointTH>"
+                },
+                "low": {
+                    "value": <#dewpointTL>,
+                    "time": "<#TdewpointTL>"
+                }
+            },
+            "windchill": {
+                "value": <#wchillTL>,
+                "time": "<#TwchillTL>"
+            },
+            "heatIndex": {
+                "value": <#heatindexTH>,
+                "time": "<#TheatindexTH>"
+            }
+        },
+        "humidity": {
+            "high": {
+                "value": <#humTH>,
+                "time": "<#ThumTH>"
+            },
+            "low": {
+                "value": <#humTL>,
+                "time": "<#ThumTL>"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": <#rfall>
+            },
+            "rate": {
+                "value": <#rrateTM>,
+                "time": "<#TrrateTM>"
+            },
+            "hourly": {
+                "value": <#hourlyrainTH>,
+                "time": "<#ThourlyrainTH>"
+            }
+        },
+        "wind": {
+            "gust": {
+                "value": <#wgustTM>,
+                "time": "<#TwgustTM>"
+            },
+            "speed": {
+                "value": <#windTM>,
+                "time": "<#TwindTM>"
+            },
+            "run": {
+                "value": <#windrun>
+            },
+            "direction": {
+                "bearing": <#domwindbearing>,
+                "name": "<#domwinddir>"
+            }
+        },
+        "pressure": {
+            "high": {
+                "value": <#pressTH>,
+                "time": "<#TpressTH>"
+            },
+            "low": {
+                "value": <#pressTL>,
+                "time": "<#TpressTL>"
+            }
+        }
+    },
+    "yesterday": {
+        "temperature": {
+            "high": {
+                "value": <#tempYH>,
+                "time": "<#TtempYH>"
+            },
+            "low": {
+                "value": <#tempTL>,
+                "time": "<#TtempYL>"
+            },
+            "range": {
+                "value": <#temprangeY>
+            },
+            "apparent": {
+                "high": {
+                    "value": <#apptempYH>,
+                    "time": "<#TapptempYH>"
+                },
+                "low": {
+                    "value": <#apptempYL>,
+                    "time": "<#TapptempYL>"
+                }
+            },
+            "dewpoint": {
+                "high": {
+                    "value": <#dewpointYH>,
+                    "time": "<#TdewpointYH>"
+                },
+                "low": {
+                    "value": <#dewpointYL>,
+                    "time": "<#TdewpointYL>"
+                }
+            },
+            "windchill": {
+                "value": <#wchillYL>,
+                "time": "<#TwchillYL>"
+            },
+            "heatIndex": {
+                "value": <#heatindexYH>,
+                "time": "<#TheatindexYH>"
+            }
+        },
+        "humidity": {
+            "high": {
+                "value": <#humYH>,
+                "time": "<#ThumYH>"
+            },
+            "low": {
+                "value": <#humYL>,
+                "time": "<#ThumYL>"
+            }
+        },
+        "rainfall": {
+            "total": {
+                "value": <#rfallY>
+            },
+            "rate": {
+                "value": <#rrateYM>,
+                "time": "<#TrrateYM>"
+            },
+            "hourly": {
+                "value": <#hourlyrainYH>,
+                "time": "<#ThourlyrainYH>"
+            }
+        },
+        "wind": {
+            "gust": {
+                "value": <#wgustYM>,
+                "time": "<#TwgustYM>"
+            },
+            "speed": {
+                "value": <#windYM>,
+                "time": "<#TwindYM>"
+            },
+            "run": {
+                "value": <#windrunY>
+            },
+            "direction": {
+                "bearing": <#domwindbearingY>,
+                "name": "<#domwinddirY>"
+            }
+        },
+        "pressure": {
+            "high": {
+                "value": <#pressYH>,
+                "time": "<#TpressYH>"
+            },
+            "low": {
+                "value": <#pressYL>,
+                "time": "<#TpressYL>"
+            }
+        }
+    },
+    "units": {
+        "temperature": "<#tempunit>",
+        "rain": "<#rainunit>",
+        "wind": "<#windunit>",
+        "windRun": "<#windrununit>",
+        "pressure": "<#pressunit>"
+    },
+    "_meta": {
+        "altitude": "<#altitude>",
+        "latitude": "<#latitude dp=4>",
+        "location": "<#location>",
+        "longitude": "<#longitude dp=4>",
+        "rollOverTime": "<#rollovertime>",
+        "stationType": "<#stationtype>",
+        "updateInterval": "<#interval>",
+        "updateTime": "<#time>"
+    },
+    "cumulus": {
+        "build": "<#build>",
+        "version": "<#version>"
+    }
+}
