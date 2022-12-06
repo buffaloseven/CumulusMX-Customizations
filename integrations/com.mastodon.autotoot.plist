@@ -12,9 +12,9 @@
 		<key>RunAtLoad</key>
 		<true />
 		<key>StandardErrorPath</key>
-		<string>/Users/brad/Desktop/CumulusMX/integrations/com.mastodon.autotoot.err</string>
+		<string>/Users/brad/CumulusMX/integrations/com.mastodon.autotoot.err</string>
 		<key>StandardOutPath</key>
-		<string>/Users/brad/Desktop/CumulusMX/integrations/com.mastodon.autotoot.out</string>
+		<string>/Users/brad/CumulusMX/integrations/com.mastodon.autotoot.out</string>
 		<key>StartCalendarInterval</key>
 		<array>
 			<dict>
